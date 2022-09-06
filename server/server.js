@@ -12,7 +12,12 @@ app.use(express.json());
 
 // test
 app.get("/", (req, res) => {
-    res.send("안녕 ㅎㅎ");
+    res.send("안녕하세요 ㅎㅎ");
 });
+
+app.get("/api", (req, res) => {
+    var text = "api 요청이 왔어요~~"
+    res.send(text)
+})
 
 server.listen(port, () => console.log(`접속 완료`));
