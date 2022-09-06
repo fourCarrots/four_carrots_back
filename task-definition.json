@@ -34,7 +34,7 @@
         "memoryReservation": null,
         "volumesFrom": [],
         "stopTimeout": null,
-        "image": "223948030936.dkr.ecr.ap-northeast-2.amazonaws.com/four_carrots:504782bae06fd8ddbb449e3a600511976190d4f2",
+        "image": "223948030936.dkr.ecr.ap-northeast-2.amazonaws.com/four_carrots",
         "startTimeout": null,
         "firelensConfiguration": null,
         "dependsOn": null,
@@ -67,6 +67,7 @@
         "cpuArchitecture": null
     },
     "cpu": "256",
+    "revision": 3,
     "inferenceAccelerators": null,
     "proxyConfiguration": null,
     "volumes": []
