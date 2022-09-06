@@ -12,7 +12,7 @@ app.use(express.json());
 
 // test
 app.get("/", (req, res) => {
-    res.send("테스트");
+    res.send("안녕 ㅎㅎ");
 });
 
 server.listen(port, () => console.log(`접속 완료`));
