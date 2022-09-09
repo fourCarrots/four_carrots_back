@@ -18,6 +18,10 @@ app.get("/", (req, res) => {
 app.get("/api", (req, res) => {
     var text = "api 요청이 왔어요~~"
     res.send(text)
-})
+});
+
+app.get("/env_test", (req, res) => {
+    res.send(process.env.SECRETS_ENV);
+});
 
 server.listen(port, () => console.log(`접속 완료`));
