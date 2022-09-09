@@ -20,8 +20,4 @@ app.get("/api", (req, res) => {
     res.send(text)
 });
 
-app.get("/env_test", (req, res) => {
-    res.send(process.env.SECRETS_ENV);
-});
-
 server.listen(port, () => console.log(`접속 완료`));
