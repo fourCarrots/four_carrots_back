@@ -28,7 +28,12 @@
         "dnsServers": null,
         "mountPoints": [],
         "workingDirectory": null,
-        "secrets": null,
+        "secrets": [
+            {
+                "name": "SECRETS_ENV",
+                "valueFrom": "arn:aws:secretsmanager:ap-northeast-2:223948030936:secret:prod/fourcarrots/mysql-JAFAun"
+            }
+        ],
         "dockerSecurityOptions": null,
         "memory": null,
         "memoryReservation": null,
